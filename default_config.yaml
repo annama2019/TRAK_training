@@ -1,0 +1,11 @@
+training:
+  batch_size: 512
+  epochs: 1
+  lr: 0.001
+  momentum: 0.9
+  lr_peak_epoch: 5
+  weight_decay: 1e-4
+  label_smoothing: 0.1
+  lr_tta: true
+  num_workers: 8
+  arch: vit_base_patch16_224.augreg_in21k_ft_in1k
